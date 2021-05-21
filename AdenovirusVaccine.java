@@ -23,7 +23,6 @@ abstract public class AdenovirusVaccine implements Vaccine{
 	}
 
 	@Override
-
 	public double getEfficacy() {
 		return efficacy;
 	}
@@ -38,7 +37,7 @@ abstract public class AdenovirusVaccine implements Vaccine{
 		return numberOfDoses;
 	}
 
-    public int getGetIntervalBetweenDoses() {
+        public int getGetIntervalBetweenDoses() {
 		return intervalBetweenDoses;
 	}
 	
